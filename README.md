@@ -2,7 +2,7 @@
 
 woowtech smart（渥屋智能）桌面 App 的安裝檔放在這個 repo 的 [Releases](https://github.com/WOOWTECH/woowtech-smart-releases/releases)。App 也從這裡檢查和下載更新。
 
-- 系統需求：macOS 13 以上。
+- 系統需求：macOS 13 以上；Windows 10 或 11（64 位元）。
 - 網站：https://aiot.woowtech.io/
 - 問題回報：woowtech@designsmart.com.tw
 
@@ -14,7 +14,7 @@ woowtech smart（渥屋智能）桌面 App 的安裝檔放在這個 repo 的 [Re
 
 Installers for the woowtech smart desktop app are published under [Releases](https://github.com/WOOWTECH/woowtech-smart-releases/releases). The app checks this repository for updates.
 
-- Requirements: macOS 13 or later.
+- Requirements: macOS 13 or later; Windows 10 or 11 (64-bit).
 - Website: https://aiot.woowtech.io/
 - Support: woowtech@designsmart.com.tw
 

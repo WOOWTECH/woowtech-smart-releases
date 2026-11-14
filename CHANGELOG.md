@@ -8,6 +8,8 @@ woowtech smart desktop releases. The app's What's new sheet reads this file; eac
 
 ### 變更 / Changes
 
+- 新增 Windows 版（Windows 10、11，64 位元）。安裝檔有程式碼簽章，Windows 顯示的發行者是 WOOW TECH CO., LTD.。
+  New: a Windows version (Windows 10 and 11, 64-bit). The installer is code-signed, and Windows shows WOOW TECH CO., LTD. as its publisher.
 - 桌面版底層的 Electron 從 44.2.0 升到 44.5.1（含通知相關的修正），安裝檔的打包工具也跟著升級。
   The desktop app's Electron runtime moves from 44.2.0 to 44.5.1 (including a notification fix), and the tool that packs the installers is upgraded as well.
 
@@ -24,6 +26,8 @@ woowtech smart desktop releases. The app's What's new sheet reads this file; eac
 
 - macOS 13 以上，Apple 晶片或 Intel。
   macOS 13 or later, Apple silicon or Intel.
+- Windows 10 或 11，64 位元（x64）。
+  Windows 10 or 11, 64-bit (x64).
 
 ## 0.9.0 - 2026-11-02
 

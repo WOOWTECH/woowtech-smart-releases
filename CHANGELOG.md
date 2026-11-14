@@ -2,6 +2,22 @@
 
 woowtech smart desktop releases. The app's What's new sheet reads this file; each release gets a `## <version> - <date>` heading.
 
+## 0.10.1 - 2026-11-14
+
+這一版修正沒有配對手機時收不到通知的問題。This release fixes missing notices when no phone is paired.
+
+### 修正 / Fixes
+
+- 沒有配對手機時，如果你超過 3 分鐘沒有操作電腦，agent 做完、出錯或需要你核准，以前不會有任何通知（這時通知只會推播到手機）。現在改由你最後使用的那台電腦（桌面版，或瀏覽器裡的網頁版）跳出通知。有配對手機的話，照舊推播到手機。
+  Without a paired phone, if you had not used the computer for more than 3 minutes, an agent that finished, failed or needed your approval notified nobody, because at that point notices only go to a phone as a push. Now the computer you used last (the desktop app, or the web app in a browser) shows the notice. With a paired phone, notices are pushed to it as before.
+
+### 系統需求 / Requirements
+
+- macOS 13 以上，Apple 晶片或 Intel。
+  macOS 13 or later, Apple silicon or Intel.
+- Windows 10 或 11，64 位元（x64）。
+  Windows 10 or 11, 64-bit (x64).
+
 ## 0.10.0 - 2026-11-06
 
 這一版是修正和底層更新：網頁版的「連到這台電腦」改成肯多等一會兒，在 App 終端機裡跑的 Claude Code 需要你回應時會通知你，桌面版底層的 Electron 也升級了。This release brings fixes and an update under the hood: the web app's "Connect to this computer" is more patient, Claude Code running in the app's terminal now notifies you when it needs your input, and the desktop app's Electron runtime is updated.

@@ -2,6 +2,31 @@
 
 woowtech smart desktop releases. The app's What's new sheet reads this file; each release gets a `## <version> - <date>` heading.
 
+## 0.10.2 - 2026-11-25
+
+這一版讓 agent 出錯時一定通知得到你，並把 Windows 和 Mac 的安裝變簡單。This release makes sure you hear about an agent that stops with an error, and makes installing on Windows and Mac simpler.
+
+### 新功能 / New
+
+- agent 出錯停下時會通知你：你在電腦前，電腦跳出「需要你的注意」；不在電腦前、有配對手機，就推播到手機。以前出錯時電腦不會顯示通知，也不會推播。
+  You are now told when an agent stops with an error: the computer you are using shows "Needs your attention", and when you are away from the computer, a paired phone gets a push. Before, an error showed no notice on the computer and sent no push.
+- Windows 版改成一鍵安裝：只裝給目前登入的使用者，裝完自動打開；重新安裝或解除安裝都會保留你的資料。
+  The Windows app now installs with one click for the signed-in user and opens when installation finishes; reinstalling or uninstalling keeps your data.
+- Mac 版第一次打開時，如果 App 不在「應用程式」資料夾，會提議幫你搬過去並重新打開；已經裝好的版本不會被蓋掉。
+  On first launch, the Mac app offers to move itself into the Applications folder and reopen; it never replaces an app that is already installed there.
+
+### 變更 / Changes
+
+- 補上更多繁體中文：Codex 的功能說明、排程表單的模式、思考過程區塊。
+  More of the app is in Traditional Chinese: Codex's feature descriptions, the schedule form's mode, and the thinking block.
+
+### 系統需求 / Requirements
+
+- macOS 13 以上，Apple 晶片或 Intel。
+  macOS 13 or later, Apple silicon or Intel.
+- Windows 10 或 11，64 位元（x64）。
+  Windows 10 or 11, 64-bit (x64).
+
 ## 0.10.1 - 2026-11-14
 
 這一版修正沒有配對手機時收不到通知的問題。This release fixes missing notices when no phone is paired.
